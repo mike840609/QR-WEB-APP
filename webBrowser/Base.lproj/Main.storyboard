@@ -114,7 +114,7 @@
                                 </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EW2-2C-kOn">
-                                <rect key="frame" x="200" y="215" width="200" height="200"/>
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="dyc-gY-GFN"/>
@@ -125,13 +125,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="EW2-2C-kOn" firstAttribute="top" secondItem="Ldn-oI-3fP" secondAttribute="top" constant="215" id="BBy-b6-ZsH"/>
                             <constraint firstItem="KcZ-rA-0yQ" firstAttribute="top" secondItem="vxl-ya-E9h" secondAttribute="bottom" constant="8" symbolic="YES" id="Hcc-E7-fMW"/>
                             <constraint firstItem="d5S-6L-kdF" firstAttribute="centerX" secondItem="Ldn-oI-3fP" secondAttribute="centerX" id="Hvd-cW-dbR"/>
                             <constraint firstItem="vxl-ya-E9h" firstAttribute="leading" secondItem="Ldn-oI-3fP" secondAttribute="leadingMargin" constant="-4" id="Q1A-3S-kkm"/>
-                            <constraint firstItem="EW2-2C-kOn" firstAttribute="centerX" secondItem="vxl-ya-E9h" secondAttribute="centerX" id="S9g-6e-JLR"/>
+                            <constraint firstItem="EW2-2C-kOn" firstAttribute="centerY" secondItem="Ldn-oI-3fP" secondAttribute="centerY" id="XTD-Uo-E6h"/>
                             <constraint firstItem="tPn-EI-Ctk" firstAttribute="top" secondItem="d5S-6L-kdF" secondAttribute="bottom" constant="58" id="bBH-zn-tAv"/>
                             <constraint firstItem="vxl-ya-E9h" firstAttribute="top" secondItem="jdG-OQ-oa0" secondAttribute="bottom" constant="8" symbolic="YES" id="hYB-SX-Bhc"/>
+                            <constraint firstItem="EW2-2C-kOn" firstAttribute="centerX" secondItem="Ldn-oI-3fP" secondAttribute="centerX" id="oCW-qD-mMt"/>
                             <constraint firstItem="d5S-6L-kdF" firstAttribute="centerX" secondItem="vxl-ya-E9h" secondAttribute="centerX" id="rku-Mu-flN"/>
                             <constraint firstItem="vxl-ya-E9h" firstAttribute="trailing" secondItem="KcZ-rA-0yQ" secondAttribute="trailing" id="tpm-sw-4HL"/>
                         </constraints>
