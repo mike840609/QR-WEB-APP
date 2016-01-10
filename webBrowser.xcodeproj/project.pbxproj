@@ -16,6 +16,7 @@
 		4D8B99461C3FADB4003A4498 /* webBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B99451C3FADB4003A4498 /* webBrowserUITests.swift */; };
 		4D8B995A1C3FEAFB003A4498 /* QR-GENViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B99591C3FEAFB003A4498 /* QR-GENViewController.swift */; };
 		4DA258D21C40B37700F2A60A /* QR-SCANViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA258D11C40B37700F2A60A /* QR-SCANViewController.swift */; };
+		4DF6078F1C4234C30004A8DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF6078E1C4234C30004A8DA /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4D8B99471C3FADB4003A4498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8B99591C3FEAFB003A4498 /* QR-GENViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QR-GENViewController.swift"; sourceTree = "<group>"; };
 		4DA258D11C40B37700F2A60A /* QR-SCANViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QR-SCANViewController.swift"; sourceTree = "<group>"; };
+		4DF6078E1C4234C30004A8DA /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				4D8B99271C3FADB4003A4498 /* ViewController.swift */,
 				4D8B99291C3FADB4003A4498 /* Main.storyboard */,
 				4D8B992C1C3FADB4003A4498 /* Assets.xcassets */,
+				4DF6078E1C4234C30004A8DA /* InfoPlist.strings */,
 				4D8B992E1C3FADB4003A4498 /* LaunchScreen.storyboard */,
 				4D8B99311C3FADB4003A4498 /* Info.plist */,
 			);
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8B99301C3FADB4003A4498 /* LaunchScreen.storyboard in Resources */,
+				4DF6078F1C4234C30004A8DA /* InfoPlist.strings in Resources */,
 				4D8B992D1C3FADB4003A4498 /* Assets.xcassets in Resources */,
 				4D8B992B1C3FADB4003A4498 /* Main.storyboard in Resources */,
 			);

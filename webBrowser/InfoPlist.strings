@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  webBrowser
+
+  Created by 蔡鈞 on 2016/1/10.
+  Copyright © 2016年 mike840609. All rights reserved.
+*/
+
+CFBundleDisplayName = "收藏家";
