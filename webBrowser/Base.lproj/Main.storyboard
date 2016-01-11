@@ -162,9 +162,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No QR Code is detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKJ-g4-dZk">
-                                <rect key="frame" x="0.0" y="483" width="600" height="18"/>
+                                <rect key="frame" x="0.0" y="511" width="600" height="40"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PTY-gc-5au"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -173,7 +176,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NKJ-g4-dZk" firstAttribute="bottom" secondItem="4K3-zS-OTi" secondAttribute="top" constant="-50" id="76g-0u-PWO"/>
+                            <constraint firstItem="NKJ-g4-dZk" firstAttribute="bottom" secondItem="4K3-zS-OTi" secondAttribute="top" id="76g-0u-PWO"/>
                             <constraint firstAttribute="trailing" secondItem="NKJ-g4-dZk" secondAttribute="trailing" id="Cn5-Xa-dYT"/>
                             <constraint firstItem="NKJ-g4-dZk" firstAttribute="leading" secondItem="Wg4-0A-3IH" secondAttribute="leading" id="cyq-cv-sBF"/>
                         </constraints>
