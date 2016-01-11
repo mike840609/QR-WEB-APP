@@ -9,17 +9,20 @@
 //導入AVFoundation 框架
 import UIKit
 import AVFoundation
+//import Foundation
 
 //實作協定 AVCaptureMetadataOutputObjectsDelegate
 class QR_SCANViewController: UIViewController ,AVCaptureMetadataOutputObjectsDelegate{
     
     @IBOutlet weak var messageLabel:UILabel!
     
+    
+    
     var captureSession:AVCaptureSession?
     var videoPreviewLayer:AVCaptureVideoPreviewLayer?
     var qrCodeFrameView:UIView?
     
-     let supportedBarCodes = [AVMetadataObjectTypeQRCode, AVMetadataObjectTypeCode128Code, AVMetadataObjectTypeCode39Code, AVMetadataObjectTypeCode93Code, AVMetadataObjectTypeUPCECode, AVMetadataObjectTypePDF417Code, AVMetadataObjectTypeEAN13Code, AVMetadataObjectTypeAztecCode]
+    let supportedBarCodes = [AVMetadataObjectTypeQRCode, AVMetadataObjectTypeCode128Code, AVMetadataObjectTypeCode39Code, AVMetadataObjectTypeCode93Code, AVMetadataObjectTypeUPCECode, AVMetadataObjectTypePDF417Code, AVMetadataObjectTypeEAN13Code, AVMetadataObjectTypeAztecCode]
     
     
     override func viewDidLoad() {
@@ -48,7 +51,7 @@ class QR_SCANViewController: UIViewController ,AVCaptureMetadataOutputObjectsDel
         
         do {
             
-//            let captureDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
+            //            let captureDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
             
             let input = try AVCaptureDeviceInput(device: captureDevice )
             // Do the rest of your work...
@@ -90,7 +93,7 @@ class QR_SCANViewController: UIViewController ,AVCaptureMetadataOutputObjectsDel
                 view.addSubview(qrCodeFrameView)
                 view.bringSubviewToFront(qrCodeFrameView)
             }
-
+            
             
         } catch let error as NSError {
             // Handle any errors
@@ -108,6 +111,8 @@ class QR_SCANViewController: UIViewController ,AVCaptureMetadataOutputObjectsDel
     
     
     func captureOutput(captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [AnyObject]!, fromConnection connection: AVCaptureConnection!) {
+        
+        
         
         // Check if the metadataObjects array is not nil and it contains at least one object.
         if metadataObjects == nil || metadataObjects.count == 0 {
@@ -130,8 +135,20 @@ class QR_SCANViewController: UIViewController ,AVCaptureMetadataOutputObjectsDel
             
             if metadataObj.stringValue != nil {
                 messageLabel.text = metadataObj.stringValue
+                
+                //                修改
+                
+                
+                
+                
+                
             }
         }
+        
+        
+        
+        
+        
     }
     
     
